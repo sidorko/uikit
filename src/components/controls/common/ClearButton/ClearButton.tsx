@@ -9,8 +9,6 @@ import type {InputControlSize} from '../../types';
 
 import i18n from './i18n';
 
-import './ClearButton.scss';
-
 const b = blockNew('clear-button');
 const ICON_SIZE = 16;
 
@@ -50,6 +48,7 @@ export const ClearButton = (props: Props) => {
             className={b(null, className)}
             onClick={onClick}
             extraProps={{'aria-label': i18n('label_clear-button')}}
+            view="flat-secondary"
         >
             <Icon data={Xmark} size={ICON_SIZE} />
         </Button>
