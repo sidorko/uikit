@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.17.1](https://github.com/gravity-ui/uikit/compare/v5.17.0...v5.17.1) (2023-10-18)
+
+
+### Bug Fixes
+
+* **Sheet:** fix Sheet intermediate hanging when touch ends above it ([#1052](https://github.com/gravity-ui/uikit/issues/1052)) ([38e6308](https://github.com/gravity-ui/uikit/commit/38e63088433798193d3eea267548ac1e7422e0a6))
+
 ## [5.17.0](https://github.com/gravity-ui/uikit/compare/v5.16.0...v5.17.0) (2023-10-05)
 
 
